@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Dinject1"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#228822"
+            android:text="textview1" />
+
+        <TextView
+            android:id="@+id/Dinject2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#a63355"
+            android:text="textview2" />
+
+        <TextView
+            android:id="@+id/Dinject3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#00cc88"
+            android:text="textview3" />
+
+        <TextView
+            android:id="@+id/Dinject4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#c4c4c4"
+            android:text="textview4" />
+        
+        <Button
+            android:id="@+id/modified_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="modified the text content"/>
+
+        <Button
+            android:id="@+id/jump_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="jump to new Activity"/>
+    </LinearLayout>
+
+</RelativeLayout>
