@@ -33,4 +33,5 @@ public class ViewInjector {
         }
         throw new RuntimeException(String.format("can not find %s , something when compiler.", activity.getClass().getSimpleName() + SUFFIX));
     }
+
 }

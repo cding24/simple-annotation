@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "com.zhy.ioc_apt_sample"
+        applicationId "com.linghu.annotation.ioc_apt_sample"
         minSdkVersion 10
         targetSdkVersion 23
         versionCode 1

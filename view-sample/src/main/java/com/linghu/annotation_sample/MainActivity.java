@@ -4,16 +4,20 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
 
+import com.linghu.annotation.BindView;
+import com.linghu.annotation.ViewInjector;
 import com.linghu.annotation.viewinject_sample.R;
 
 
 public class MainActivity extends AppCompatActivity {
-//    @BindView(R.id.id_textview)
-//    TextView mTv;
-//
-//    @BindView(R.id.id_btn)
-//    Button mBtn;
+    @BindView(R.id.id_textview)
+    TextView mTv;
+
+    @BindView(R.id.id_btn)
+    Button mBtn;
 
 
     @Override
@@ -21,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fragment);
 
-//        ViewInjector.injectView(this);
-//
-//        mTv.setText("ViewInject");
-//        mBtn.setText("ViewInject ~");
+        ViewInjector.injectView(this);
+
+        mTv.setText("ViewInject");
+        mBtn.setText("ViewInject ~");
 
     }
 
@@ -49,4 +53,5 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }
